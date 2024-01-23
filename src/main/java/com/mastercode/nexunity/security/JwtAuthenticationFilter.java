@@ -25,7 +25,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private Logger logger = LoggerFactory.getLogger(OncePerRequestFilter.class);
 
-    @Autowired
+    // @Autowired
     private JwtHelper jwtHelper;
 
     @Autowired
